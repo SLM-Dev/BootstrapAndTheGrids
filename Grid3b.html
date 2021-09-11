@@ -77,13 +77,13 @@
     <main class="flex-shrink-0">
       <div class="container h-100 minHeight">
         <ul class="nav nav-pills mb-1">
-          <li class="nav item">
-              <a href="/Grid3.html" class="nav-link active" aria-current="page">Grid 3</a>
+            <li class="nav item">
+                <a href="/Grid3.html" class="nav-link">Grid 3</a>
+            </li>
+            <li class="nav item">
+              <a href="/Grid3b.html" class="nav-link active" aria-current="page">Grid 3B</a>
           </li>
-          <li class="nav item">
-            <a href="/Grid3b.html" class="nav-link">Grid 3B</a>
-        </li>
-        </ul>
+          </ul>
         <div class="row h-100">
           <!--LEFT COLUMN-->
           <div class="col-7">
@@ -110,39 +110,28 @@
             </div>
           </div>
           <!--RIGHT COLUMN-->
-          <div class="col-5 h-100 d-flex flex-column justify-content-evenly">
+          <div class="col-5">
             <!--RIGHT TOP COLUMN-->
-            <div class="bg-dark text-light h-50 p-2 overflow-auto">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error,
-                praesentium corrupti? Quidem odio molestiae beatae aspernatur
-                libero ipsa repellendus illo laborum adipisci, nesciunt
-                excepturi sed ducimus consequuntur ea recusandae perferendis.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
-                error a ex corporis sed illum adipisci cumque atque dolores
-                neque magnam reiciendis quos nulla pariatur. Suscipit doloribus
-                recusandae accusantium consequuntur.
-              </p>
+            <div class="bg-secondary text-light p-2">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="search" aria-label="search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
             </div>
             <!--RIGHT BOTTOM COLUMN-->
-            <div class="bg-dark text-light h-50 mt-2 p-2 overflow-hidden">
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Consequatur, doloremque quae? Voluptate, ipsam dignissimos?
-                Assumenda ex perspiciatis quae ullam animi, facilis officiis
-                aliquid minus magni possimus, asperiores nihil tempore nemo!
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Reiciendis id non error, quam reprehenderit totam laboriosam
-                tempore eos corporis nihil consequuntur quidem assumenda nisi
-                provident. Aliquid ducimus itaque recusandae ea?
-              </p>
-            </div>
-            <div class="bg-dark text-light border border-top p-2">
-              <button class="btn btn-light" type="button">Read More</button>
+            <div class="bg-dark text-light  mt-2 p-2 ">
+                <h3>More Articles</h3>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Article One</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Article Two</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Article Three</a>
+                    </li>    
+                </ul>
             </div>
           </div>
         </div>
